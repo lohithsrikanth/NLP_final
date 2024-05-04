@@ -23,6 +23,7 @@ Refer to the requirements.txt file for all the packages. This file was generated
 All our backend code files are in the directory named "Code". In this directory, there is another directory named "preprocessing" which contains code that was used to preprocess the original data file. The preprocessed file named "Yelp_Restaurant_Reviews.csv" is the file that is used by all the models. 
 
 The original data file was retrieved from here: https://www.kaggle.com/datasets/farukalam/yelp-restaurant-reviews?resource=download
+
 The 'Code' directory contains the following files:
 - EDA.ipynb => This file does the Exploratory Data Analysis for our project.
 - LogisticRegression_RandomForest.ipynb => This file contains code that uses the Logistic Regression and Random Forest models to do sentiment analysis.
@@ -34,6 +35,7 @@ The 'Code' directory contains the following files:
 
 #### User Interface
 To run the UI, please navigate to the directory named 'UI' and run the command: "streamlit run app.py"
+
 Note: Ensure that the streamlit module has been installed (included in the requirements.txt file).
 
 
